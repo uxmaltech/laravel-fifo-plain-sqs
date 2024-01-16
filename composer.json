@@ -1,0 +1,13 @@
+{
+    "name": "uxmaltech/laravel-fifo-plain-sqs",
+    "type": "library",
+    "require": {
+        "dusterio/laravel-plain-sqs": "^0.1.25",
+        "laravel/pint": "^1.13"
+    },
+    "autoload": {
+        "psr-4": {
+            "Uxmal\\FifoPlainSqs\\": "src/"
+        }
+    }
+}
