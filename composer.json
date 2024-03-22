@@ -9,5 +9,12 @@
         "psr-4": {
             "Uxmal\\FifoPlainSqs\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Uxmal\\FifoPlainSqs\\SqsFifoPlainServiceProvider"
+            ]
+        }
     }
 }
